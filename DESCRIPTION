@@ -1,4 +1,4 @@
-Package: lesson.template
+Package: CW21.README.tips
 Title: Github Repo Template for a Pkgdown Lesson
 Version: 0.0.0.9000
 Authors@R: 
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "haoye@ufl.edu",
            comment = c(ORCID = "0000-0002-8630-1458"))
-Description: This github repository serves as a template for a short-form workshop, lesson, or course to be shared in the form of a pkgdown website with slides rendered by xaringan. This description text for the package and lesson should be written in `README.Rmd`, which, when knit, will then update the package's `DESCRIPTION` file.
+Description: READMEs are one of the primary ways that new users first encounter your project; and hopefully not the last! This mini-workshop will review practices in creating READMEs so as to best welcome people to your project, communicate the vision of your work and its unique value, and demonstrate how to get started using or contributing to your project. Participants will engage in short group discussions about READMEs and user personas, and then engage in scaffolded practice on crafting READMEs for their own personal projects or provided examples.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
@@ -25,6 +25,6 @@ title: Github Repo Template for a Pkgdown Lesson
 learningOutcomes: * something
  * something else
  * thing 3
-prerequisites: * how to fold cheese
- * how to fold cheesecloth
+prerequisites: * have experience with GitHub projects
+ * are familiar with writing in markdown
 priorCourse: 

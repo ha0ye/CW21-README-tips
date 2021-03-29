@@ -12,20 +12,23 @@ workflow](https://github.com/uf-repro/lesson-template/workflows/pkgdown/badge.sv
 
 ## Description
 
-This github repository serves as a template for a short-form workshop,
-lesson, or course to be shared in the form of a pkgdown website with
-slides rendered by xaringan. This description text for the package and
-lesson should be written in `README.Rmd`, which, when knit, will then
-update the package’s `DESCRIPTION` file.
+READMEs are one of the primary ways that new users first encounter your
+project; and hopefully not the last\! This mini-workshop will review
+practices in creating READMEs so as to best welcome people to your
+project, communicate the vision of your work and its unique value, and
+demonstrate how to get started using or contributing to your project.
+Participants will engage in short group discussions about READMEs and
+user personas, and then engage in scaffolded practice on crafting
+READMEs for their own personal projects or provided examples.
+
+Explanations get in the way of action.
 
 ## Prerequisites
 
 This lesson assumes you:
 
-  - how to fold cheese
-  - how to fold cheesecloth
-
-Such as via
+  - have experience with GitHub projects
+  - are familiar with writing in markdown
 
 ## Learning Outcomes
 

@@ -7,7 +7,7 @@
       "orcid": "0000-0002-8630-1458"
     }
   ],
-  "description": "This github repository serves as a template for a short-form workshop, lesson, or course to be shared in the form of a pkgdown website with slides rendered by xaringan. This description text for the package and lesson should be written in `README.Rmd`, which, when knit, will then update the package's `DESCRIPTION` file.",
+  "description": "READMEs are one of the primary ways that new users first encounter your project; and hopefully not the last! This mini-workshop will review practices in creating READMEs so as to best welcome people to your project, communicate the vision of your work and its unique value, and demonstrate how to get started using or contributing to your project. Participants will engage in short group discussions about READMEs and user personas, and then engage in scaffolded practice on crafting READMEs for their own personal projects or provided examples.",
   "keywords": [
     "Open Educational Resources",
     "Research Support Skills",
