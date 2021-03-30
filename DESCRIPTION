@@ -1,6 +1,6 @@
 Package: CW21.README.tips
 Title: Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable
-Version: 0.4.0
+Version: 0.9.0
 Authors@R: 
     person(given = "Hao",
            family = "Ye",

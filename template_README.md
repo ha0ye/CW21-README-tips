@@ -1,22 +1,50 @@
-# README Template
-
+README Template
 ---
-# Project
+
+# Project Title
 
 ## Badges
+*tests, DOI, compliance with community standards*
 
 ## Description
-
-
+*one **short** paragraph about your project's goal and context*
 
 ## Installation
 
+*step-by-step guide, e.g. download and install the package*
+```
+# code to perform the step
+```
 
-## Example
+*optional check of version or correct installation*
+```
+# code to perform the check
+```
 
+### Prerequisites (if needed)
+*(if requiring additional libraries, provide instruction or links to How-To guides)*
+
+## Example Task (rename as needed)
+
+*description of the basic task to be demonstrated*
+*include instructions to download example data or use example data with the software*
+```
+# code chunks (as many as needed)
+```
+
+## More Information (optional)
+
+*links to tutorial, readings, other resources, etc.*
+*
+
+## Contributing (if needed)
+
+*link to CONTRIBUTING.md and/or CODE_OF_CONDUCT.md for instructions on contributing / submitting pull requests*
 
 ## Acknowledgements
 
+*funding sources / acknowledgements for **this** project*
 
+### How to Cite
 
-
+  *example citation*
