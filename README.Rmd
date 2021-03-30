@@ -15,11 +15,13 @@ knitr::opts_chunk$set(
 
 ```{r, include = FALSE}
 
-lesson_title <- "Github Repo Template for a Pkgdown Lesson"
+lesson_title <- "Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable"
 lesson_description <- "READMEs are one of the primary ways that new users first encounter your project; and hopefully not the last! This mini-workshop will review practices in creating READMEs so as to best welcome people to your project, communicate the vision of your work and its unique value, and demonstrate how to get started using or contributing to your project. Participants will engage in short group discussions about READMEs and user personas, and then engage in scaffolded practice on crafting READMEs for their own personal projects or provided examples."
 lesson_keywords <- c("Open Educational Resources", 
-                     "Research Support Skills", 
-                     "Version Control", 
+                     "Documentation", 
+                     "Software Development", 
+                     "Open Source", 
+                     "GitHub", 
                      "Workshop")
 folder_name <- basename(usethis::proj_get())
 package_name <- gsub("-", ".", folder_name)
@@ -66,9 +68,9 @@ This lesson assumes you:
 ## Learning Outcomes
 
 ```{r, include = FALSE}
-learning_outcomes <- c("differentiate ", 
-                       "create personas to  else",
-                       "thing 3")
+learning_outcomes <- c("know the different types of technical documentation", 
+                       "create personas to aid product design",
+                       "structure simple READMEs")
 outcomes_text <- paste0("* ", learning_outcomes, collapse = "\n")
 desc::desc_set("learningOutcomes", outcomes_text)
 ```

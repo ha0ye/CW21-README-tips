@@ -1,7 +1,8 @@
 # Additional Resources / Readings
 
-* ["The documentation system"](https://documentation.divio.com/)
-  - The four different *kinds* of documentation, by Daniele Procida.
+* "What nobody tells you about documentation"
+  - [PyCon Australia 2017 talk from Daniele Procida](https://www.youtube.com/watch?v=t4vKPhjcMZg)
+  - [Website description of the Documentation system](https://documentation.divio.com/)
 
 ## Personas & Pathways
 

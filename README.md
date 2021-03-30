@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Github Repo Template for a Pkgdown Lesson
+# Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable
 
 <!-- badges: start -->
 
@@ -34,6 +34,6 @@ This lesson assumes you:
 
 By the end of the workshop, participants will be able to:
 
-  - something
-  - something else
-  - thing 3
+  - know the different types of technical documentation
+  - create personas to aid product design
+  - structure simple READMEs
