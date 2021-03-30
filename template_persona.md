@@ -1,7 +1,4 @@
-User Persona Template
----
-
-# User Persona
+# User Persona Template
 
 ## Who
 *{name - use https://www.behindthename.com/random/ to help generate random names}*

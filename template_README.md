@@ -1,7 +1,6 @@
-README Template
----
+# README Template
 
-# Project Title
+## Project Title
 
 ## Badges
 *tests, DOI, compliance with community standards*
