@@ -7,6 +7,7 @@
 
 [![GitHub Actions pkgdown
 workflow](https://github.com/ha0ye/CW21-README-tips/workflows/pkgdown/badge.svg)](https://github.com/ha0ye/CW21-README-tips/actions?query=workflow%3Apkgdown)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4647390.svg)](https://doi.org/10.5281/zenodo.4647390)
 
 <!-- badges: end -->
 
