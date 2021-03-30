@@ -46,7 +46,6 @@ class: inverse, center, middle
 
 # `r desc::desc_get('Title', '..')`
 ### `r rmarkdown::metadata$author`
-### Health Science Center Libraries
 ### University of Florida
 ### (updated: `r Sys.Date()`)
 
