@@ -1,13 +1,13 @@
 ---
 title: "`r desc::desc_get('Title', '..')`"
 author: "Hao Ye"
-institute: "Health Science Center Libraries, University of Florida"
 date: "(updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: xaringan-themer.css
+    css: ["ninjutsu", xaringan-themer.css]
     seal: false
+    fig_caption: false
     nature:
       highlightStyle: github
       highlightLines: true
@@ -19,8 +19,7 @@ options(htmltools.dir.version = FALSE)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_mono_accent(
-  base_color = "#09274B",
+style_solarized_light(
   base_font_size = "32px", 
   header_h1_font_size = "2.0rem",
   header_h2_font_size = "1.5rem",
@@ -38,7 +37,8 @@ style_mono_accent(
                    "pre" = list("margin-top" = "0.5em", 
                               "margin-bottom" = "0.5em"), 
                    ".small" = list("font-size" = "80%"), 
-                   ".tiny" = list("font-size" = "50%")), 
+                   ".tiny" = list("font-size" = "50%"), 
+                   ".vmiddle" = list("transform" = "translateY(-100%)")), 
   link_color = "#339944"
 )
 ```
@@ -46,13 +46,27 @@ class: inverse, center, middle
 
 # `r desc::desc_get('Title', '..')`
 ### `r rmarkdown::metadata$author`
-### `r rmarkdown::metadata$institute`
+### Health Science Center Libraries
+### University of Florida
 ### (updated: `r Sys.Date()`)
 
 ---
-# Motivations
+You have a project on GitHub.
 
-* because
+--
+
+### .center[🎉 Congrats! 🎉]
+
+--
+
+How do you get people to engage with it?
+
+--
+
+* **What** problem does it solve?
+* **Who** is the project for?
+* **How** does a user install it?
+* **Where** does someone go to find more info?
 
 ---
 # Prerequisites
@@ -60,14 +74,46 @@ class: inverse, center, middle
 This lesson assumes you:
 `r gsub("\n ", "\n", desc::desc_get("prerequisites"))`
 
-Such as via `r desc::desc_get("priorCourse")`
-
 ---
 # Learning Outcomes
 
 By the end of the workshop, participants will be able to:
 
 `r gsub("\n ", "\n", desc::desc_get("learningOutcomes"))`
+
+---
+class: inverse, center, middle
+
+# Documentation Types
+
+---
+Daniele Procida talks about the **4** kinds of documentation with **different purposes** and requiring **different approaches**.
+
+```{r, echo = FALSE, out.width = "70%", fig.align = "center", fig.alt = "A title slide of a dark grey background with the title 'What nobody tells you about documentation' in light blue text at the bottom of the slide. Just above the title is a horizontal light gray line and above that the presenter's name: 'Daniele Procida'."}
+knitr::include_graphics("procida-title-slide.png")
+```
+.center[[PyCon Australia 2017 talk](https://www.youtube.com/watch?v=t4vKPhjcMZg)]
+
+---
+class: split-two with-thick-border
+.column[
+.split-two[
+  .row[.content.vmiddle.center[
+    ### TUTORIALS
+  ]]
+  .row[.content.vmiddle.center[
+    ### EXPLANATION
+  ]]
+]]
+.column[
+.split-two[
+  .row[.content.vmiddle.center[
+    ### HOW-TO GUIDES
+  ]]
+  .row[.content.vmiddle.center[
+    ### REFERENCE
+  ]]
+]]
 
 ---
 class: inverse, center, middle
@@ -87,40 +133,49 @@ A *good* persona includes:
 * concerns and barriers
 
 ---
+class: center, middle
 
-## So what?
+# Exercise
 
-* reason!
-* another reason!
+---
+class: inverse, center, middle
+
+# README Structure
+
+---
+# Structuring a How-To Guide
+
+
 
 ---
 
-```{r, echo = FALSE, out.width = "70%", fig.cap = "Falafel!", fig.alt = "Alt Text: A tan and white dog (retriever mix) is lying on a tile floor and looking up at the camera with his mouse open, seemingly happy. There is a food container on his body with the label 'Tzatziki' visible. (This is a visual pun on the dog's name, Falafel)"}
-knitr::include_graphics("image.jpg")
+# Get ~~students~~ users doing powerful things quickly
+
+Examples:
+* Work with real and interesting data
+* Create appealing and informative visualizations
+* Draw useful conclusions
+
+.small[adapted from [David Robinson's blogpost](http://varianceexplained.org/r/teach-tidyverse/)]
+
+---
+# Examples
+
+[The `datapasta` R package](https://github.com/milesmcbain/datapasta/).
+
+---
+class: inverse, center, middle
+
+# Takeaways
+
+---
+1. Know your users and what they need
+2. Get  users doing powerful things quickly
+  *Explanations get in the way of action.*
+3. Watch out for jargon!
+
+
+```{r, echo = FALSE, out.width = "70%", fig.align = "center", fig.alt = "A clip from Schitt's Creek. A white male in his 30s in a white sweater with black stripes and a blue apron with pink flowers is stirring a pot in the kitchen. His mother, a white female in her 60s in a black dress and glasses is holding a small piece of paper, intended to be a recipe of some kind. The man has a skeptical look and is asking 'What does \"Fold in the cheese\" mean?'. The dialogue also appears in the clip as a caption."}
+knitr::include_graphics("fold-in-the-cheese.gif")
 ```
-
----
-
-# Goals for your readme
-
-* Get students doing powerful things quickly
-have goals for what your students should be able to do, and start them doing it as soon as possible. In the case of data science classes2, those goals are probably something like:
-
-Work with real and interesting data
-Create appealing and informative visualizations
-Draw useful conclusions
-
-* 
-from http://varianceexplained.org/r/teach-tidyverse/
-
----
-
-# Jargon
-
-* avoid it!
-* unnecessary - avoid definitions
-
-
----
-# Thanks
 

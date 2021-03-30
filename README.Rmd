@@ -50,8 +50,6 @@ jsonlite::write_json(zenodo_json, ".zenodo.json",
 
 `r lesson_description`
 
-Explanations get in the way of action.
-
 ## Prerequisites
 ```{r, include = FALSE}
 prereqs <- c("have experience with GitHub projects", 

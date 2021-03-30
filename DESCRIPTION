@@ -1,6 +1,6 @@
 Package: CW21.README.tips
 Title: Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable
-Version: 0.0.0.9000
+Version: 0.4.0
 Authors@R: 
     person(given = "Hao",
            family = "Ye",
@@ -22,7 +22,6 @@ Imports:
     xaringan,
     xaringanthemer,
     usethis
-title: Github Repo Template for a Pkgdown Lesson
 learningOutcomes: * know the different types of technical documentation
  * create personas to aid product design
  * structure simple READMEs

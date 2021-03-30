@@ -13,8 +13,9 @@ navbar:
       - articles
       - references
      right:
-      - notes
       - slides
+      - template_user_persona
+      - template_README
       - resources
       - home
       - github
@@ -26,9 +27,12 @@ navbar:
      home:
        icon: fas fa-home fa-lg
        href: index.html
-     notes:
-       text: Notes
-       href: notes.html
+     template_user_persona:
+       text: User Persona template
+       href: template_persona.html
+     template_README:
+       text: README template
+       href: template_README.html
      slides:
        text: Slides
        href: slides.html
