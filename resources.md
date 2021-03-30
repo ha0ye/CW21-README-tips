@@ -14,3 +14,11 @@
   
 * ["Behind the Name"](https://www.behindthename.com/random/)
   - tool for generating random names
+  
+## READMEs
+
+* [A Good README Template](https://github.com/PurpleBooth/a-good-readme-template)
+  - PurpleBooth's readme template
+  
+* [A standard style for README files](https://github.com/RichardLitt/standard-readme)
+  - RichardLitt's specification for a standard style

@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![GitHub Actions pkgdown
-workflow](https://github.com/uf-repro/lesson-template/workflows/pkgdown/badge.svg)](https://github.com/uf-repro/lesson-template/actions?query=workflow%3Apkgdown)
+workflow](https://github.com/ha0ye/CW21-README-tips/workflows/pkgdown/badge.svg)](https://github.com/ha0ye/CW21-README-tips/actions?query=workflow%3Apkgdown)
 
 <!-- badges: end -->
 
@@ -20,8 +20,6 @@ demonstrate how to get started using or contributing to your project.
 Participants will engage in short group discussions about READMEs and
 user personas, and then engage in scaffolded practice on crafting
 READMEs for their own personal projects or provided examples.
-
-Explanations get in the way of action.
 
 ## Prerequisites
 
