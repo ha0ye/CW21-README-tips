@@ -35,7 +35,6 @@
 ## More Information (optional)
 
 *links to tutorial, readings, other resources, etc.*
-*
 
 ## Contributing (if needed)
 
