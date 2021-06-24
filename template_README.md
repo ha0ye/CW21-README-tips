@@ -11,6 +11,7 @@
 ## Installation
 
 *step-by-step guide, e.g. download and install the package*
+*include details on where to enter the commands - users may not know that a command needs to be entered in the shell / command-line or how to open the shell / command-line* 
 ```
 # code to perform the step
 ```
