@@ -1,5 +1,6 @@
 {
   "title": "Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable",
+  "version": "1.0.2",
   "creators": [
     {
       "affiliation": "University of Florida",
@@ -16,7 +17,6 @@
     "GitHub",
     "Workshop"
   ],
-  "access_right": "open",
-  "license": "CC-BY-4.0",
+  "license": "CC BY 4.0",
   "upload_type": "lesson"
 }

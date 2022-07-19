@@ -1,6 +1,6 @@
 Package: CW21.README.tips
 Title: Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     person(given = "Hao",
            family = "Ye",
@@ -28,3 +28,4 @@ learningOutcomes: * know the different types of technical documentation
 prerequisites: * have experience with GitHub projects
  * are familiar with writing in markdown
 priorCourse: 
+X-schema.org-keywords: Open Educational Resources, Documentation, Software Development, Open Source, GitHub, Workshop
